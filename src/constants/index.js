@@ -16,9 +16,9 @@ import {
     wms,
     gelin,
     SnapInspect,
-    carrent,
-    jobit,
-    tripguide,
+    realtor,
+    attendance,
+    threeD,
     threejs,
   } from "../assets";
   
@@ -39,16 +39,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
+      title: "Front-End Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Graphic Designer",
       icon: backend,
+    },
+    {
+      title: "Web Developer",
+      icon: web,
     },
     {
       title: "Content Creator",
@@ -178,16 +178,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Property Agent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "In this project, I've had the fantastic opportunity to build and deploy a fully functional real estate application using the latest versions of React, Firebase, and Tailwind CSS.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
@@ -195,41 +195,41 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: realtor,
+      source_code_link: "https://github.com/chinenzl/realtor-clone-react",
     },
     {
-      name: "Job IT",
+      name: "Attendance Management System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This software is designed to manage student-related data within a school environment. The front-end development incorporates HTML, CSS, JavaScript, and the React framework. Additionally, the JavaScript library React-Bootstrap was utilized to enhance the user interface. On the back-end, the software is powered by Django, a Python-based framework. The database implementation relies on the lightweight SQLite3, integrated within the Django framework.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Django",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "SQLite3",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: attendance,
+      source_code_link: "https://github.com/chinenzl/Attendance",
     },
     {
-      name: "Trip Guide",
+      name: "3D Portfolio",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Vite",
           color: "green-text-gradient",
         },
         {
@@ -237,8 +237,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: threeD,
+      source_code_link: "https://github.com/chinenzl/3D-Portfolio",
     },
   ];
   

@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import gelin from "./company/gelin.png";
 import SnapInspect from "./company/SnapInspect.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import realtor from "./realtor.png";
+import attendance from "./attendance.webp";
+import threeD from "./threeD.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   shopify,
   gelin,
   SnapInspect,
-  carrent,
-  jobit,
-  tripguide,
+  realtor,
+  attendance,
+  threeD,
 };
